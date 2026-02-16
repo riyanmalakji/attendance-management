@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/practical_info_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practicals Information"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/practical_info_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practicals are an essential part of polytechnic education, providing students with hands-on experience in various technical fields. These sessions allow students to apply theoretical knowledge to practical scenarios, enhancing their understanding and skills. Through practicals, students gain valuable experience, problem-solving abilities, and teamwork skills. Additionally, practicals align with industry standards, preparing students for future careers."
+            android:textSize="18sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:id="@+id/benefits_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits of Practicals"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/benefits_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Hands-on Experience: Practical sessions provide students with hands-on experience, allowing them to apply theoretical concepts in real-world scenarios.\n\n2. Skill Development: Practical work helps students develop a wide range of technical skills, including problem-solving, critical thinking, and communication.\n\n3. Industry Relevance: Practical sessions are designed to align with industry standards and practices, ensuring that students are well-prepared for the job market.\n\n4. Collaborative Learning: Practical work often involves teamwork and collaboration, allowing students to learn from each other and develop interpersonal skills.\n\n5. Career Readiness: By engaging in practicals, students enhance their employability and readiness for future careers, building a strong foundation for success."
+            android:textSize="16sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:id="@+id/additional_info_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Additional Information"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/additional_info_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practicals typically involve laboratory work, fieldwork, or technical projects, depending on the subject and course requirements. Students may work individually or in groups, depending on the nature of the practicals. The duration of practical sessions may vary, ranging from a few hours to several days or weeks, depending on the complexity of the tasks and the learning objectives. In addition to technical skills, practicals also help students develop soft skills such as time management, organization, and attention to detail, which are crucial for success in any field."
+            android:textSize="16sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="#333333"/>
+
+    </LinearLayout>
+</ScrollView>

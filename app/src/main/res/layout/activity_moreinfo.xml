@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Info"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+
+        <!-- College Information -->
+        <TextView
+            android:id="@+id/textViewCollegeInfoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Swami Vivekanand College, Latur:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:id="@+id/textViewCollegeInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swami Vivekanand College, Latur, is a premier educational institution known for its excellence in technical education. Established with a vision to nurture future leaders, the college offers a wide range of courses in polytechnic engineering. With state-of-the-art facilities, experienced faculty, and a conducive learning environment, the college provides holistic development opportunities to its students."
+            android:textSize="16sp"
+            android:layout_below="@id/textViewCollegeInfoTitle"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Advantages -->
+        <TextView
+            android:id="@+id/textViewAdvantagesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advantages of Swami Vivekanand College:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/textViewCollegeInfo"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:id="@+id/textViewAdvantages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Experienced Faculty\n2. State-of-the-art Facilities\n3. Industry-oriented Curriculum\n4. Career Guidance\n5. Scholarships and Financial Assistance\n6. Placements and Internships Opportunities\n7. Sports and Cultural Activities\n8. Alumni Network\n9. Research and Innovation Initiatives"
+            android:textSize="16sp"
+            android:layout_below="@id/textViewAdvantagesTitle"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Pros -->
+        <TextView
+            android:id="@+id/textViewProsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pros of Joining Swami Vivekanand College:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/textViewAdvantages"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:id="@+id/textViewPros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Quality Education\n2. Industry Exposure\n3. Skill Development\n4. Networking Opportunities\n5. Personal Growth\n6. Campus Life\n7. Recognition and Reputation\n8. Infrastructure\n9. Placement Support"
+            android:textSize="16sp"
+            android:layout_below="@id/textViewProsTitle"
+            android:layout_marginTop="8dp"/>
+
+    </RelativeLayout>
+</ScrollView>

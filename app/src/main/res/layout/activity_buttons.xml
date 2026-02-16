@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".buttons"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ꜱᴇʟᴇᴄᴛ ᴄʟᴀꜱꜱ"
+        android:textSize="35dp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lectures Attendance"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/black" />
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-25dp">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+            android:text="𝙲𝚕𝚊𝚜𝚜"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#25372F"></TextView>
+
+            <TextView
+                android:text="𝚂𝚞𝚋𝚓𝚎𝚌𝚝"
+                android:layout_marginLeft="40dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#25372F"></TextView>
+            <TextView
+                android:text="𝚂𝚝𝚊𝚛𝚝"
+                android:layout_marginLeft="50dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#25372F"></TextView>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:text="CO6I"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:textColor="#25372F"></TextView>
+
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:scrollbarSize="100dp"
+                />
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="Go"
+                >
+            </Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     "></TextView>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:text="CO5I"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:textColor="#25372F"></TextView>
+
+
+            <Spinner
+                android:id="@+id/spinnerr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:scrollbarSize="100dp"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="Go"
+                >
+            </Button>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:text="CO4I"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:textColor="#25372F"></TextView>
+
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:scrollbarSize="100dp"
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="Go"
+                >
+            </Button>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:text="CO3I"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:textColor="#25372F"></TextView>
+
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:scrollbarSize="100dp"
+                />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="Go"
+                >
+            </Button>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:text="CO2I"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:textColor="#25372F"></TextView>
+
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:scrollbarSize="100dp"
+                />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="Go"
+                >
+            </Button>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:text="CO1I"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:textColor="#25372F"></TextView>
+
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:scrollbarSize="100dp"
+                />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="Go"
+                >
+            </Button>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </TableRow>
+    </TableLayout>
+</HorizontalScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Note : You need to login to save attendance in Database)"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textStyle="italic"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="140dp"
+        android:background="#2E3737"
+        android:text="SVIP LATUR"
+        android:paddingLeft="165dp"
+        android:paddingTop="13dp"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textStyle="normal"></TextView>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="24dp"
+        android:src="@drawable/botlogo"
+        android:layout_marginTop="-61dp"
+        android:layout_marginLeft="78dp"></ImageView>
+</LinearLayout>

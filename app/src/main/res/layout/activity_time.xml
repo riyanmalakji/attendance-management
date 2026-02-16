@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Management"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time management is crucial for polytechnic students as it helps them effectively balance their academic responsibilities, extracurricular activities, and personal life. Here are some tips to help polytechnic students manage their time efficiently:"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Prioritize tasks: Identify the most important tasks and prioritize them based on deadlines and importance."
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Set specific goals: Define clear and achievable goals for each study session and allocate time accordingly."
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Create a schedule: Use a planner or digital calendar to schedule study sessions, classes, and other activities to make the most of your time."
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Avoid procrastination: Break tasks into smaller, manageable chunks and tackle them one at a time to avoid procrastination."
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Take breaks: Schedule short breaks during study sessions to recharge your mind and maintain focus."
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Stay organized: Keep your study space tidy and organized to minimize distractions and maximize productivity."
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Review and adjust: Regularly review your schedule and adjust it as needed to accommodate changes or unexpected events."
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Seek support: Don't hesitate to seek help from teachers, counselors, or peers if you're struggling with time management or academic workload."
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time management is essential for polytechnic students to succeed academically and maintain a healthy work-life balance. By following these tips and strategies, students can effectively manage their time and achieve their academic goals."
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember, good time management leads to better productivity, reduced stress, and improved overall well-being."
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+    </LinearLayout>
+</ScrollView>
