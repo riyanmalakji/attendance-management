@@ -39,7 +39,7 @@ HOW TO RUN THE PROJECT
 
 1. Clone the repository
 
-git clone https://github.com/your-username/repository-name.git
+git clone https://github.com/riyanmalakji/attendance-management
 
 2. Open the project in Android Studio
 
